@@ -1,0 +1,239 @@
+/* SeaChange Design System — generated from tokens.json */
+:root, [data-theme="light"] {
+  --sc-purple: #574092; /* Sea purple, sampled from the logo. Same value as purple-500; use for brand moments and the logo's colour. */
+  --sc-red: #E52B3E; /* Change red, sampled from the logo. Same value as red-500; brand moments, the on/off motion pill. */
+  --sc-plum: #5B2F46; /* Plum, the overlap where purple and red meet in the logo. Same value as plum-500. */
+  --sc-sand: #D5C9BE; /* Sand, the brand ground. Same value as sand-300; logo-on-sand panels and brand blocks. */
+  --purple-50: #F3F0F9; /* Sea scale. Selected surface (surface-selected), info badge ground. */
+  --purple-100: #E4DEF2; /* Sea scale. Text selection background; light tints. */
+  --purple-200: #C8BCE4; /* Sea scale. Light tint fills. */
+  --purple-300: #A18FCF; /* Sea scale. Chart series 4. */
+  --purple-400: #7A63B4; /* Sea scale. Focus border (border-focus) and focus halo. */
+  --purple-500: #574092; /* Sea scale. Primary actions, links, focus, chart series 1 (8.2:1 on white). */
+  --purple-600: #47337A; /* Sea scale. Primary button hover. */
+  --purple-700: #382862; /* Sea scale. Primary button press; link hover. */
+  --purple-800: #291D49; /* Sea scale. Deep purple tint. */
+  --purple-900: #1B1331; /* Sea scale. Inverse surface: toasts, tooltips, dark panels, chart tooltips. */
+  --red-50: #FDEEEF; /* Change scale. Negative status background. */
+  --red-100: #FAD4D8; /* Change scale. Light red tint (insight hachure fill). */
+  --red-200: #F4A8B0; /* Change scale. Light red tint. */
+  --red-300: #EE7884; /* Change scale. Chart series 5. */
+  --red-400: #EA4E5E; /* Change scale. Red tint. */
+  --red-500: #E52B3E; /* Change scale. Change red: emphasis, AI sparkles, active-tab indicator, chart series 2, at most one hero CTA per view. */
+  --red-600: #C21E30; /* Change scale. Change button hover; negative status text (5.3:1 on red-50). */
+  --red-700: #9A1726; /* Change scale. Deep red. */
+  --red-800: #70111C; /* Change scale. Deep red. */
+  --red-900: #470B12; /* Change scale. Darkest red. */
+  --plum-100: #EADDE3; /* Plum, the overlap colour. Light plum tint. */
+  --plum-300: #A57A8F; /* Plum, the overlap colour. Mid plum tint. */
+  --plum-500: #5B2F46; /* Plum, the overlap colour. Chart series 3; data-source symbols; text on sand CTA panels. */
+  --plum-700: #3F2030; /* Plum, the overlap colour. Deep plum. */
+  --plum-900: #24121B; /* Plum, the overlap colour. Darkest plum. */
+  --sand-0: #FFFFFF; /* Sand neutrals (warm, no cool greys). White: cards (surface-card). */
+  --sand-50: #FAF7F4; /* Sand neutrals (warm, no cool greys). App page background (surface-page). */
+  --sand-100: #F3EEE9; /* Sand neutrals (warm, no cool greys). Sunken and hover surfaces; text on inverse. */
+  --sand-200: #E8E0D8; /* Sand neutrals (warm, no cool greys). Subtle borders, chart gridlines. */
+  --sand-300: #D5C9BE; /* Sand neutrals (warm, no cool greys). Default borders; brand sand surface. */
+  --sand-400: #BBAC9F; /* Sand neutrals (warm, no cool greys). Warm mid-grey. */
+  --sand-500: #9A8B7E; /* Sand neutrals (warm, no cool greys). Strong borders, subtle text, chart axis labels, flow arrows. */
+  --sand-600: #786B60; /* Sand neutrals (warm, no cool greys). Muted text. */
+  --sand-700: #574D45; /* Sand neutrals (warm, no cool greys). Dark warm grey. */
+  --sand-800: #3A332E; /* Sand neutrals (warm, no cool greys). Body text. */
+  --sand-900: #221E1B; /* Sand neutrals (warm, no cool greys). Strongest text. There is no pure black. */
+  --green-100: #DCEFE6; /* Status. Positive status background. */
+  --green-500: #2F8A62; /* Status. Positive status. 3.5:1 on green-100: below 4.5:1 for small text (source value kept). */
+  --green-700: #1F5E43; /* Status. Dark green. */
+  --amber-100: #FBEBCF; /* Status. Warning status background. */
+  --amber-500: #C9821A; /* Status. Warning status. 2.7:1 on amber-100: below 4.5:1 for text (source value kept). */
+  --amber-700: #8A5710; /* Status. Dark amber. */
+  --surface-page: var(--sand-50); /* App page background. */
+  --surface-card: var(--sand-0); /* Cards: white with a border-subtle hairline and shadow-xs. */
+  --surface-sunken: var(--sand-100); /* Sunken card variant and wells. */
+  --surface-brand: var(--sand-300); /* Brand sand panels (sidebar sync card, CTAs). */
+  --surface-inverse: var(--purple-900); /* Inverse surface: toasts, tooltips, dark panels. */
+  --surface-accent: var(--purple-500); /* Accent card for AI summaries, with text-on-accent. */
+  --surface-hover: var(--sand-100); /* Hover on neutral surfaces: one sand step darker. */
+  --surface-selected: var(--purple-50); /* Selected rows and items. */
+  --text-strong: var(--sand-900); /* Headings and strongest text on surface-page, surface-card, surface-sunken and surface-brand (10.2:1 or more). */
+  --text-body: var(--sand-800); /* Body copy on surface-page, surface-card and surface-sunken (10.8:1 or more). */
+  --text-muted: var(--sand-600); /* Secondary text on surface-card (5.2:1) and surface-page (4.8:1). 4.5:1 on surface-sunken and 3.2:1 on surface-brand: large text only there. */
+  --text-subtle: var(--sand-500); /* Placeholders and tertiary labels. 3.3:1 on surface-card: below 4.5:1, so only for text 24px+ or non-essential hints (source value kept). */
+  --text-on-accent: #FFFFFF; /* Text on surface-accent and action-primary (8.2:1). On action-change it is 4.4:1, just under 4.5:1 (source value kept). */
+  --text-on-inverse: var(--sand-100); /* Text on surface-inverse (15.4:1). */
+  --text-link: var(--purple-500); /* Links on surface-page and surface-card (7.7:1 or more). */
+  --text-link-hover: var(--purple-700); /* Link hover; links underline with a 3px offset. */
+  --text-accent: var(--purple-500); /* Accent text on light surfaces. */
+  --text-change: var(--red-500); /* The "change" phrase in headlines. 4.4:1 on surface-card: use at 24px+ (source value kept). */
+  --border-subtle: var(--sand-200); /* 1px hairlines on cards and dividers. */
+  --border-default: var(--sand-300); /* Input and control borders. */
+  --border-strong: var(--sand-500); /* Emphasised borders. */
+  --border-focus: var(--purple-400); /* Focus border (4.9:1 on surface-card); pairs with shadow-focus. */
+  --action-primary: var(--purple-500); /* Primary buttons, with text-on-accent. */
+  --action-primary-hover: var(--purple-600); /* Primary button hover. */
+  --action-primary-press: var(--purple-700); /* Primary button press. */
+  --action-change: var(--red-500); /* The one red hero CTA per view (Change button). */
+  --action-change-hover: var(--red-600); /* Change button hover. */
+  --status-positive: var(--green-500); /* Positive status text and dots on status-positive-bg. */
+  --status-positive-bg: var(--green-100); /* Positive badge background. */
+  --status-warning: var(--amber-500); /* Warning status text and dots on status-warning-bg. */
+  --status-warning-bg: var(--amber-100); /* Warning badge background. */
+  --status-negative: var(--red-600); /* Negative status text and dots on status-negative-bg (5.3:1). */
+  --status-negative-bg: var(--red-50); /* Negative badge background. */
+  --status-info: var(--purple-500); /* Info status text on status-info-bg (7.3:1). */
+  --status-info-bg: var(--purple-50); /* Info badge background. */
+  --chart-1: var(--purple-500); /* Data series 1. Use the series in order. */
+  --chart-2: var(--red-500); /* Data series 2. */
+  --chart-3: var(--plum-500); /* Data series 3. */
+  --chart-4: var(--purple-300); /* Data series 4. */
+  --chart-5: var(--red-300); /* Data series 5. */
+  --chart-6: var(--sand-500); /* Data series 6. */
+  --chart-grid: var(--sand-200); /* Chart gridlines. */
+  --chart-axis: var(--sand-500); /* Chart axis labels at 11px. */
+  --shadow-xs: 0 1px 2px rgba(34,30,27,.06); /* Cards. */
+  --shadow-sm: 0 1px 2px rgba(34,30,27,.06),0 2px 6px rgba(34,30,27,.05); /* Raised elements. */
+  --shadow-md: 0 2px 4px rgba(34,30,27,.05),0 8px 20px rgba(34,30,27,.08); /* Menus. */
+  --shadow-lg: 0 4px 8px rgba(34,30,27,.06),0 20px 44px rgba(34,30,27,.14); /* Dialogs and toasts. */
+  --shadow-focus: 0 0 0 3px rgba(122,99,180,.35); /* Focus ring: a 3px purple-400 halo at 35%. */
+}
+:root {
+  --space-0: 0; /* No space. */
+  --space-1: 4px; /* 4px base unit; icon-to-label gaps. */
+  --space-2: 8px; /* Tight gaps. */
+  --space-3: 12px; /* Control gaps. */
+  --space-4: 16px; /* Gap between cards. */
+  --space-5: 20px; /* Card padding. */
+  --space-6: 24px; /* Section gaps. */
+  --space-8: 32px; /* Page gutter. */
+  --space-10: 40px; /* Large gaps. */
+  --space-12: 48px; /* Section spacing. */
+  --space-16: 64px; /* Large section spacing. */
+  --space-20: 80px; /* Hero spacing. */
+  --space-24: 96px; /* Largest spacing. */
+  --radius-xs: 4px; /* Small details. */
+  --radius-sm: 6px; /* Small chips and swatches. */
+  --radius-md: 10px; /* Inputs. */
+  --radius-lg: 16px; /* Cards. */
+  --radius-xl: 24px; /* Large panels. */
+  --radius-pill: 999px; /* Buttons, chips, the ask bar. */
+  --text-xs: 12px; /* Caption. */
+  --text-sm: 14px; /* Body small, mono. */
+  --text-md: 16px; /* Body. */
+  --text-lg: 18px; /* Body large. */
+  --text-xl: 22px; /* H4. */
+  --text-2xl: 28px; /* H3. */
+  --text-3xl: 36px; /* H2. */
+  --text-4xl: 48px; /* H1, metrics. */
+  --text-5xl: 64px; /* Display. */
+  --text-6xl: 88px; /* Largest display size. */
+  --leading-tight: 1.08; /* Display and H1. */
+  --leading-snug: 1.25; /* H2 to H4, captions. */
+  --leading-body: 1.5; /* Body copy. */
+  --leading-loose: 1.65; /* Loose reading text. */
+  --tracking-display: -0.025em; /* Display sizes, H1 and metrics. */
+  --tracking-heading: -0.015em; /* H2 and H3. */
+  --tracking-body: 0; /* Body copy. */
+  --tracking-caps: 0.08em; /* Uppercase labels. */
+  --weight-regular: 400; /* Batica ships Regular only: hierarchy comes from size and colour, never bold. */
+  --border-width: 1px; /* Hairlines. */
+  --border-width-strong: 2px; /* The active-tab underline. */
+  --layout-sidebar: 248px; /* Fixed left sidebar width. */
+  --layout-topbar: 64px; /* Top bar height. */
+  --layout-content-max: 1280px; /* Maximum content width. */
+  --font-sans: "Batica Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: "Batica Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "DM Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  --text-display: 400 64px/1.08 var(--font-display); /* Hero headlines. */
+  --text-h1: 400 48px/1.08 var(--font-display); /* Page titles. */
+  --text-h2: 400 36px/1.25 var(--font-display); /* Section titles. */
+  --text-h3: 400 28px/1.25 var(--font-sans); /* Sub-section titles. */
+  --text-h4: 400 22px/1.25 var(--font-sans); /* Card and panel titles. */
+  --text-body-lg: 400 18px/1.5 var(--font-sans); /* Lead paragraphs. */
+  --text-body-sm: 400 14px/1.5 var(--font-sans); /* Secondary text, table cells. */
+  --text-caption: 400 12px/1.25 var(--font-sans); /* Labels and metadata. */
+  --text-metric: 400 48px/1 var(--font-display); /* Big KPI numbers. */
+  --text-mono: 400 14px/1.5 var(--font-mono); /* Code, SQL and IDs (DM Mono, a substitute). */
+}
+.display {
+  font-family: var(--font-display);
+  font-size: 64px;
+  line-height: 1.08;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+}
+.h1 {
+  font-family: var(--font-display);
+  font-size: 48px;
+  line-height: 1.08;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+}
+.h2 {
+  font-family: var(--font-display);
+  font-size: 36px;
+  line-height: 1.25;
+  font-weight: 400;
+  letter-spacing: -0.015em;
+}
+.h3 {
+  font-family: var(--font-sans);
+  font-size: 28px;
+  line-height: 1.25;
+  font-weight: 400;
+  letter-spacing: -0.015em;
+}
+.h4 {
+  font-family: var(--font-sans);
+  font-size: 22px;
+  line-height: 1.25;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.body-lg {
+  font-family: var(--font-sans);
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.body {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.body-sm {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.caption {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  line-height: 1.25;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+.metric {
+  font-family: var(--font-display);
+  font-size: 48px;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: -0.025em;
+}
+.mono {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+@font-face {
+  font-family: "Batica Sans";
+  src: url("fonts/BaticaSans-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
